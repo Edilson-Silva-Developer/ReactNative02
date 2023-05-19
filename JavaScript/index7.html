@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Aprendendo JavaScript</title>
+    <script type="text/Javascript" src="script6.js"></script>
+
+</head>
+
+<body>
+
+    <!-- comnando do mouse registrando quem apertou, soutol, passou, tirou e 
+        ficou movimentadno o curso por cima do botão-->
+
+    <button style="width: 400px; height: 60px" onmousedown="apertoumouse()" onmouseup="solteiomouse()"
+        onmouseover="passouomouse()" onmouseout="tirouomouse()" onmousemove="movendoMouse()">Fazer Pedido 1</button>
+
+
+    <button style="width: 400px; height: 60px"
+     onclick="onClick()"
+     oncontextmenu="return botaoDireito()"
+     >Fazer Pedido
+        2</button>
+     
+        <button style="width: 400px; height: 60px"
+     onclick="onClick2()"
+     oncontextmenu="return false">Fazer Pedido
+         bloqueado 3</button>
+
+</body>
+
+</html>
