@@ -1,15 +1,15 @@
-window.addEventListener("keydown", function(e){
+window.addEventListener("keydown", function (e) {
 
-    if(e.key == 'x'){
+    if (e.key == 'x') {
         console.log("Apertou a letra x");
-    }else if(e.key == "Enter"){
+    } else if (e.key == "Enter") {
         console.log("Apertou Enter");
     }
 });
 
-window.addEventListener("keyup", function(e){
+window.addEventListener("keyup", function (e) {
 
-    if(e.key == "Enter"){
+    if (e.key == "Enter") {
         console.log("Soltou o Enter")
     }
 });
