@@ -87,9 +87,9 @@ h1 {
 
 /*Class de esconder*/
 
-/*.hide {
+.hide {
     display: none !important;
-}*/
+}
 
 
 
@@ -139,7 +139,6 @@ h1 {
     background-color: #000;
     color: #fff;
     padding: 20px;
-    display: none;
 
 
 }
